@@ -6,3 +6,8 @@ namespace: argocd
 resources:
   - resources/namespase.yaml
   - https://raw.githubusercontent.com/argoproj/argo-cd/master/manifests/ha/install.yaml
+
+patchesStrategicMerge:
+  - overlays/production/argocd-cm-patch.yaml
+
+
