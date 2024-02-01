@@ -9,6 +9,6 @@ spec:
   project: default
   source:
     path: .
-    repoURL: git@github.com:MikalaiSafranouski/argo.git
+    repoURL: https://github.com/MikalaiSafranouski/argo.git
     targetRevision: main
   
